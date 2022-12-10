@@ -1,0 +1,42 @@
+.menu{
+  background: lightgray;
+  padding:1rem;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  position: relative;
+  display:flex;
+  flex-flow: column;
+}
+
+button{
+  width: 100px;
+}
+
+.gomb{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jatek{
+  margin-top: 25px;
+}
+
+table{
+  border: 2px solid black;
+  margin:0 auto;
+}
+
+td{
+  border: 2px solid black;
+  width:200px;
+  height:200px;
+}
+
+#square{
+  width:100%;
+  height:100%;
+  display:grid;
+  place-content:center;
+  font-size: 100px
+}
